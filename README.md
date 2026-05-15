@@ -1,48 +1,51 @@
 # Static Website Hosting with S3 and CloudFront
 
 ## Overview
-This project demonstrates how to deploy a static website using AWS services. The website is hosted on Amazon S3 and distributed globally using CloudFront as a Content Delivery Network (CDN).
+
+This project shows how to deploy a static website on AWS using Amazon S3 and CloudFront.
+The website is hosted in S3 and delivered globally through CloudFront for improved performance and availability.
 
 ---
 
 ## Architecture
-User → CloudFront → S3 (static website)
+User → CloudFront → S3 (Static Website)
 
 ---
 
 ## Services Used
 - Amazon S3 (static website hosting)
-- CloudFront (content delivery and caching)
+- Amazon CloudFront (content delivery and caching)
 
 ---
 
-## Implementation Steps
+## Configuration Steps
 
-### 1. Website Creation
-- Created a simple HTML page (`index.html`)
 
-### 2. S3 Bucket Setup
+### Website Creation
+- Created a simple HTML page (index.html)
+
+### S3 Bucket Setup
 - Created an S3 bucket
 - Disabled block public access
 - Enabled static website hosting
 - Uploaded website files
-
-### 3. Bucket Policy
-- Configured a policy to allow public read access
-
-### 4. CloudFront Distribution
+- 
+### Bucket Policy
+- Configured a bucket policy to allow public read access
+- 
+### CloudFront Distribution
 - Created a CloudFront distribution
-- Configured S3 as the origin
-- Set default root object to `index.html`
+- Configured the S3 bucket as the origin
+- Set default root object to index.html
 - Enabled HTTP to HTTPS redirection
 
 ---
 
-## Features
-- Static website hosting
-- Global content delivery via CDN
-- Reduced latency through caching
-- Secure access using HTTPS
+## Functionality
+- Hosted a static website using Amazon S3
+- Delivered content globally using CloudFront
+- Improved performance using caching
+- Enabled HTTPS access via CloudFront
 
 ---
 
@@ -65,11 +68,11 @@ User → CloudFront → S3 (static website)
 
 ---
 
-## Key Learnings
-- Difference between S3 static hosting and traditional web servers
-- Basics of CDN and caching
-- How CloudFront improves performance and availability
-- Managing public access securely in AWS
+## Key Skills Demonstrated
+- S3 static website hosting configuration
+- CloudFront distribution setup
+- Understanding of CDN and caching behavior
+- Managing public access using bucket policies
 
 ---
 
