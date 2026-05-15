@@ -32,7 +32,7 @@ User → CloudFront → S3 (Static Website)
 - 
 ### Bucket Policy
 - Configured a bucket policy to allow public read access
-- 
+  
 ### CloudFront Distribution
 - Created a CloudFront distribution
 - Configured the S3 bucket as the origin
