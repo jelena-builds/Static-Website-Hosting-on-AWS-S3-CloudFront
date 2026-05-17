@@ -29,7 +29,7 @@ User → CloudFront → S3 (Static Website)
 - Disabled block public access
 - Enabled static website hosting
 - Uploaded website files
-- 
+  
 ### Bucket Policy
 - Configured a bucket policy to allow public read access
   
@@ -38,6 +38,7 @@ User → CloudFront → S3 (Static Website)
 - Configured the S3 bucket as the origin
 - Set default root object to index.html
 - Enabled HTTP to HTTPS redirection
+- Verified website accessibility using CloudFront distribution URL
 
 ---
 
@@ -46,6 +47,7 @@ User → CloudFront → S3 (Static Website)
 - Delivered content globally using CloudFront
 - Improved performance using caching
 - Enabled HTTPS access via CloudFront
+  
 
 ---
 
